@@ -42,8 +42,8 @@ public class PlayerController : MonoBehaviour
 	bool IsGrounded()
 	{
 		float colliderHeight = gameObject.GetComponent<Collider> ().bounds.extents.y;
-		bool isOnGround = Physics.Raycast (transform.position, -Vector3.up, colliderHeight + 0.1f);
-		bool movingUp = m_rb.velocity.y > Mathf.Epsilon;
+		bool isOnGround = Physics.Raycast (transform.position, -Vector3.up, colliderHeight + 0.15f);
+		bool movingUp = m_rb.velocity.y > 0.1f;
 		return isOnGround && !movingUp;
 	}
 
