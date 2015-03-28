@@ -279,6 +279,7 @@ MonoBehaviour:
   m_PlayerNumber: 4
   m_MoveForce: 10000
   m_JumpForce: 2500
+  m_GrabDir: {x: 0, y: 0, z: 0}
 --- !u!136 &46142860
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -514,6 +515,7 @@ MonoBehaviour:
   m_PlayerNumber: 2
   m_MoveForce: 10000
   m_JumpForce: 2500
+  m_GrabDir: {x: 0, y: 0, z: 0}
 --- !u!1 &348857886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,6 +1756,7 @@ MonoBehaviour:
   m_PlayerNumber: 1
   m_MoveForce: 10000
   m_JumpForce: 2500
+  m_GrabDir: {x: 0, y: 0, z: 0}
 --- !u!1 &1682655047
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +2227,7 @@ MonoBehaviour:
   m_PlayerNumber: 3
   m_MoveForce: 10000
   m_JumpForce: 2500
+  m_GrabDir: {x: 0, y: 0, z: 0}
 --- !u!4 &1848922330
 Transform:
   m_ObjectHideFlags: 0
